@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zedstar16\OnlineTime;
+namespace Dready\OnlineTime;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
