@@ -199,3 +199,13 @@ class Main extends PluginBase implements Listener
         }
     }
 }
+  case "credits":
+                        if ($sender->hasPermission("credits.onlinetime")) {
+                            if (isset($args[1])) {
+                                if ($args[1] == "all") {
+                                    $sender->sendMessage("Dready");
+                                }
+                            }
+                        }
+            
+      
