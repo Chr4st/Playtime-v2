@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Chr4st/Playtime-v2
+build-by-default: true
+branches:
+- main
+projects:
+  Playtime-v2:
+    path: ""
+...
