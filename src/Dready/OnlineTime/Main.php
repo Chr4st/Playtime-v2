@@ -72,7 +72,7 @@ class Main extends PluginBase implements Listener
                                     $sender->sendMessage("§aThe total online time of $args[1] is: §b" . $time[0] . "§9hrs §b" . $time[1] . "§9mins §b" . $time[2] . "§9secs");
                                 } else $sender->sendMessage("§cPlayer not found in database");
                             }
-                        }break;case"info":$sender->sendMessage($c);break;
+                        }break;case"info":$sender->sendMessage("Made by Dready");
                     case "session":
                         if (!isset($args[1])) {
                             $time = explode(":", $this->getSessionTime($sender->getName()));
@@ -199,13 +199,5 @@ class Main extends PluginBase implements Listener
         }
     }
 }
-  case "info":
-                        if ($sender->hasPermission("info.onlinetime")) {
-                            if (isset($args[1])) {
-                                if ($args[1] == "all") {
-                                    $sender->sendMessage("Dready");
-                                }
-                            }
-                        }
-            
+ 
       
