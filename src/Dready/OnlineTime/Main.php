@@ -11,7 +11,7 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
-use Zedstar16\OnlineTime\database\SQLite;
+use Dready\OnlineTime\database\SQLite;
 
 class Main extends PluginBase implements Listener
 {
