@@ -1,10 +1,10 @@
 <?php
 
-namespace Zedstar16\OnlineTime\database;
+namespace Dready\OnlineTime\database;
 
 use pocketmine\Player;
 use pocketmine\plugin\PluginException;
-use Zedstar16\OnlineTime\Main;
+use Dready\OnlineTime\Main;
 
 class SQLite
 {
